@@ -36,11 +36,7 @@ public class FbLogin {
 		return driver;
 		}
 	
-	public WebDriver getDriver()
-	{
-		return driver;
-	}
-
+	
 
 	public void enterUserName() {
 		driver.findElement(UN).sendKeys("Name");
